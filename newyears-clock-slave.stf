@@ -1,0 +1,6 @@
+comp = "P1" module = "SIL-6"
+comp = "P2" module = "SIL-4"
+comp = "P3" module = "SIL-4"
+comp = "P4" module = "SIL-6"
+comp = "R1" module = "R3"
+comp = "U1" module = "DIP-20__300"

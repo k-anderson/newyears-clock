@@ -1,0 +1,244 @@
+EESchema Schematic File Version 2  date Sat 15 Dec 2012 10:27:15 AM PST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:tpic6b595
+LIBS:newyears-clock
+LIBS:newyears-clock-slave-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "15 dec 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4650 3400 4750 3400
+Wire Wire Line
+	4650 3600 4750 3600
+Wire Wire Line
+	6250 3700 6350 3700
+Wire Wire Line
+	6250 3500 6350 3500
+Wire Wire Line
+	4650 2300 4650 3200
+Wire Wire Line
+	4100 3250 4100 3200
+Wire Wire Line
+	4100 3200 4750 3200
+Wire Wire Line
+	6300 2950 6300 3200
+Wire Wire Line
+	6300 3200 6250 3200
+Wire Wire Line
+	6250 3800 6650 3800
+Wire Wire Line
+	6650 3800 6650 4450
+Wire Wire Line
+	6650 4450 4000 4450
+Wire Wire Line
+	4000 4450 4000 2700
+Wire Wire Line
+	3800 2600 4000 2600
+Wire Wire Line
+	4700 4000 4750 4000
+Connection ~ 3900 2800
+Wire Wire Line
+	7300 2800 3800 2800
+Wire Wire Line
+	3800 2900 4600 2900
+Wire Wire Line
+	4600 2900 4600 3300
+Wire Wire Line
+	4600 3300 4750 3300
+Connection ~ 4650 2500
+Wire Wire Line
+	7300 2400 3800 2400
+Wire Wire Line
+	7300 2500 3800 2500
+Wire Wire Line
+	3900 2800 3900 4350
+Wire Wire Line
+	3900 4350 6550 4350
+Wire Wire Line
+	6550 4350 6550 3900
+Wire Wire Line
+	6550 3900 6250 3900
+Wire Wire Line
+	7300 2700 3800 2700
+Connection ~ 4000 2700
+Wire Wire Line
+	7300 2600 7050 2600
+Wire Wire Line
+	4750 3900 4700 3900
+Wire Wire Line
+	4700 3900 4700 4150
+Connection ~ 4700 4000
+Wire Wire Line
+	6250 4000 6300 4000
+Wire Wire Line
+	6300 4000 6300 4150
+Wire Wire Line
+	6250 3300 6450 3300
+Wire Wire Line
+	6450 3300 6450 2900
+Wire Wire Line
+	6450 2900 7300 2900
+Connection ~ 4650 3200
+Wire Wire Line
+	4100 3750 4100 3800
+Wire Wire Line
+	4100 3800 4750 3800
+Wire Wire Line
+	6350 3400 6250 3400
+Wire Wire Line
+	6350 3600 6250 3600
+Wire Wire Line
+	4750 3700 4650 3700
+Wire Wire Line
+	4750 3500 4650 3500
+$Comp
+L 7SEG_2 P3
+U 1 1 50CCBF7B
+P 6700 3550
+F 0 "P3" V 6650 3550 50  0000 C CNN
+F 1 "7SEG_2" V 6750 3550 50  0000 C CNN
+	1    6700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 7SEG_1 P2
+U 1 1 50CCBF5D
+P 4300 3550
+F 0 "P2" V 4250 3550 50  0000 C CNN
+F 1 "7SEG_1" V 4350 3550 50  0000 C CNN
+	1    4300 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG1
+U 1 1 50CCB912
+P 4650 2300
+F 0 "#FLG1" H 4650 2395 30  0001 C CNN
+F 1 "PWR_FLAG" H 4650 2480 30  0000 C CNN
+	1    4650 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 50CCB703
+P 4100 3500
+F 0 "R1" V 4180 3500 50  0000 C CNN
+F 1 "1k" V 4100 3500 50  0000 C CNN
+	1    4100 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR3
+U 1 1 50CCB69E
+P 6300 2950
+F 0 "#PWR3" H 6300 2950 30  0001 C CNN
+F 1 "GND" H 6300 2880 30  0001 C CNN
+	1    6300 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR1
+U 1 1 50CCB646
+P 4000 2600
+F 0 "#PWR1" H 4000 2600 30  0001 C CNN
+F 1 "GND" H 4000 2530 30  0001 C CNN
+	1    4000 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR4
+U 1 1 50CCB640
+P 6300 4150
+F 0 "#PWR4" H 6300 4150 30  0001 C CNN
+F 1 "GND" H 6300 4080 30  0001 C CNN
+	1    6300 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR2
+U 1 1 50CCB5FC
+P 4700 4150
+F 0 "#PWR2" H 4700 4150 30  0001 C CNN
+F 1 "GND" H 4700 4080 30  0001 C CNN
+	1    4700 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR5
+U 1 1 50CCB5E3
+P 7050 2600
+F 0 "#PWR5" H 7050 2600 30  0001 C CNN
+F 1 "GND" H 7050 2530 30  0001 C CNN
+	1    7050 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_6 P1
+U 1 1 50CCB289
+P 3450 2650
+F 0 "P1" V 3400 2650 60  0000 C CNN
+F 1 "CONN_6" V 3500 2650 60  0000 C CNN
+	1    3450 2650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_6 P4
+U 1 1 50CCB26A
+P 7650 2650
+F 0 "P4" V 7600 2650 60  0000 C CNN
+F 1 "CONN_6" V 7700 2650 60  0000 C CNN
+	1    7650 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L TPIC6B595 U1
+U 1 1 50CCB24F
+P 5500 3550
+F 0 "U1" H 5900 2850 50  0000 C CNN
+F 1 "TPIC6B595" H 5250 2850 50  0000 C CNN
+F 2 "MODULE" H 5500 4350 50  0001 C CNN
+F 3 "DOCUMENTATION" H 5500 4250 50  0001 C CNN
+	1    5500 3550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

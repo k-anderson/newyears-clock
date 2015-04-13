@@ -1,0 +1,127 @@
+# EESchema Netlist Version 1.1 created  Sat 15 Dec 2012 10:27:20 AM PST
+(
+ ( /50CCBF7B $noname  P3 7SEG_2 {Lib=7SEG_2}
+  (    C N-000003 )
+  (    D N-000018 )
+  (    E N-000004 )
+  (    G N-000017 )
+ )
+ ( /50CCBF5D $noname  P2 7SEG_1 {Lib=7SEG_1}
+  (    A N-000010 )
+  (    B N-000008 )
+  (   DP N-000007 )
+  (    F N-000009 )
+ )
+ ( /50CCB703 $noname  R1 1k {Lib=R}
+  (    1 N-000006 )
+  (    2 N-000016 )
+ )
+ ( /50CCB289 $noname  P1 CONN_6 {Lib=CONN_6}
+  (    1 N-000002 )
+  (    2 N-000016 )
+  (    3 GND )
+  (    4 N-000014 )
+  (    5 N-000015 )
+  (    6 N-000011 )
+ )
+ ( /50CCB26A $noname  P4 CONN_6 {Lib=CONN_6}
+  (    1 N-000002 )
+  (    2 N-000016 )
+  (    3 GND )
+  (    4 N-000014 )
+  (    5 N-000015 )
+  (    6 N-000013 )
+ )
+ ( /50CCB24F MODULE  U1 TPIC6B595 {Lib=TPIC6B595}
+  (    1 ? )
+  (    2 N-000016 )
+  (    3 N-000011 )
+  (    4 N-000010 )
+  (    5 N-000009 )
+  (    6 N-000008 )
+  (    7 N-000007 )
+  (    8 N-000006 )
+  (    9 GND )
+  (   10 GND )
+  (   11 GND )
+  (   12 N-000015 )
+  (   13 N-000014 )
+  (   14 N-000004 )
+  (   15 N-000018 )
+  (   16 N-000003 )
+  (   17 N-000017 )
+  (   18 N-000013 )
+  (   19 GND )
+  (   20 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ U1 10
+ U1 11
+ U1 19
+ U1 9
+ P1 3
+ P4 3
+Net 2 "" ""
+ P1 1
+ P4 1
+Net 3 "" ""
+ P3 C
+ U1 16
+Net 4 "" ""
+ U1 14
+ P3 E
+Net 6 "" ""
+ R1 1
+ U1 8
+Net 7 "" ""
+ P2 DP
+ U1 7
+Net 8 "" ""
+ U1 6
+ P2 B
+Net 9 "" ""
+ U1 5
+ P2 F
+Net 10 "" ""
+ U1 4
+ P2 A
+Net 11 "" ""
+ U1 3
+ P1 6
+Net 13 "" ""
+ P4 6
+ U1 18
+Net 14 "" ""
+ P1 4
+ U1 13
+ P4 4
+Net 15 "" ""
+ P1 5
+ U1 12
+ P4 5
+Net 16 "" ""
+ P4 2
+ P1 2
+ R1 2
+ U1 2
+Net 17 "" ""
+ U1 17
+ P3 G
+Net 18 "" ""
+ U1 15
+ P3 D
+}
+#End
